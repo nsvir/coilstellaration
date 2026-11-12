@@ -404,9 +404,7 @@ def score_instance(
             import sys
 
             import jax
-            from coilstellaration.examples import (
-                run_benchmark_scoring
-            )
+            import run_benchmark_scoring
 
             if __name__ == "__main__":
                 logging.basicConfig(level=logging.INFO, force=True)
